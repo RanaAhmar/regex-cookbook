@@ -8,49 +8,6 @@
 
 Stop reinventing the wheel and struggling with backslashes. Find the pattern you need, understand how it works, and drop it into your code.
 
----
-
-## 🚀 Key Categories
-
-- **User Data:** Emails, usernames, passwords (with complexity rules), phone numbers.
-- **Web & URLs:** Slugs, full URLs, IP addresses (v4 & v6), MAC addresses.
-- **Security:** Credit cards, social security numbers, API keys, JWT patterns.
-- **Parsing:** Markdown headers, HTML tags, Log timestamps, CSV data.
-- **Financial:** Currencies, IBANs, tax IDs.
-
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/RanaAhmar/regex-cookbook.git
-cd regex-cookbook
-```
-
-## 🛠️ Usage
-
-Browse the patterns in the `src/` directory or use the helper script to find a pattern:
-
-```bash
-node src/find-pattern.js "email"
-```
-
-### Example Pattern: Email Validation
-```javascript
-const patterns = require('./src/patterns');
-const emailRegex = patterns.USER_DATA.EMAIL;
-console.log(emailRegex.test("hello@stackaura.com")); // true
-```
-
----
-
-## 🛡️ Keywords & SEO
-`regex-cookbook`, `regular-expressions`, `regex-patterns`, `email-validation`, `javascript-regex`, `python-regex`, `security-patterns`, `stackaura`, `ahmar-hussain`.
-
----
-
-## 📄 License
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
@@ -69,3 +26,4 @@ If you found this tool useful, check out our other high-performance web utilitie
 - **Author:** [Ahmar Hussain](https://github.com/RanaAhmar)
 
 ---
+
